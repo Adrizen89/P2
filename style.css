@@ -1,0 +1,149 @@
+
+* {		
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    display: flex;
+}
+
+#aside-bar {
+
+
+    background-color: #1E88E5;
+    width: 30%;
+    height: auto;
+
+}
+
+#aside-bar img {
+    width: 150px;
+    height: auto;
+    margin-left: 25px;
+
+}
+
+p {
+    padding: 15px 10px 15px 10px;
+    color: white;
+}
+
+.aside-title {
+    text-align: center;
+    letter-spacing: 1px;
+    background-color: white;
+    color: #1E88E5;
+
+}
+
+.logo-loisirs {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    color: white;
+}
+
+.fa-graduation-cap, .fa-suitcase, .fa-pencil-alt {
+    color: #1E88E5;
+    padding-right: 20px;
+}
+
+
+
+#corps {
+
+    width: 100%;
+}
+
+h2 {
+    margin-top: 50px;
+    font-size: 3em;
+}
+
+h2 span {
+
+    color: #1E88E5;
+}
+
+#corps h2, .sous-titre {
+    margin-left: 130px;
+    margin-bottom: 30px;
+
+}
+
+.border {
+    border-bottom: 2px solid #1E88E5;
+}
+
+h4 {
+    border-bottom: 2px solid #1E88E5;
+    width: 80%;
+}
+
+.formation, .experience, .qualite {
+    margin-left: 100px;
+}
+
+table {
+    text-align: center;
+}
+
+td {
+    width: 70%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.qualite-txt {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+
+    body {
+        display: flex;
+        flex-direction: column-reverse;
+	}
+
+    #aside-bar {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+	}
+
+    #aside-bar img {
+        margin: 0 auto 0 auto;
+    }
+
+	.aside-title {
+        width: 100%;
+    }
+
+	p {
+        text-align: center;
+    }
+
+    #corps h2 {
+        margin-left: 30px;
+        text-align: center;
+    }
+
+    .sous-titre {
+        margin-left: 50px;
+        text-align: center;
+    }
+
+	td {
+        width: 30%;
+        padding-right: 60px;
+
+    }
+
+}
