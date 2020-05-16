@@ -5,14 +5,22 @@
 }
 
 body {
+
     display: flex;
+    
+}
+
+#corps{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
 }
 
 #aside-bar {
 
 
-    background-color: #1E88E5;
-    width: 30%;
+    background-color: #004D40;
+    width: 60%;
     height: auto;
 
 }
@@ -20,38 +28,52 @@ body {
 #aside-bar img {
     width: 250px;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
 }
 
-p {
-    padding: 15px 10px 15px 10px;
-    color: white;
-}
+
 
 .aside-title {
     text-align: center;
     letter-spacing: 1px;
-    background-color: white;
-    color: #1E88E5;
+    background-color: #1DE9B6;
+    color: #004D40;
 
+}
+
+.txt_aside{
+    padding: 40px 40px 40px 40px;
+    color : #1DE9B6;
+}
+.txt_aside_propos{
+    padding: 40px 40px 500px 40px;
+    text-align: justify;
+    color: #1DE9B6;
 }
 
 .logo-loisirs {
     display: flex;
     justify-content: space-around;
     padding-top: 20px;
-    color: white;
+    color: #64FFDA;
 }
 
 .fa-graduation-cap, .fa-suitcase, .fa-pencil-alt {
-    color: #1E88E5;
+    color: #004D40;
     padding-right: 20px;
 }
 
+.fa-circle{
+    color: #004D40;
+    padding: 10px;
+}
 
-
-#corps {
-
-    width: 100%;
+.sous_titre{
+    padding-bottom: 50px;
 }
 
 h2 {
@@ -61,47 +83,64 @@ h2 {
 
 h2 span {
 
-    color: #1E88E5;
+    color: #004D40;
 }
 
-#corps h2, .sous-titre {
-    margin-left: 130px;
-    margin-bottom: 30px;
-
+h5{
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
+
 
 .border {
-    border-bottom: 2px solid #1E88E5;
+    border-bottom: 2px solid #004D40;
 }
 
-h4 {
-    border-bottom: 2px solid #1E88E5;
-    width: 80%;
+.titre{
+    border-bottom: 2px solid #004D40;
+    width: 95%;
+    margin-top: 40px;
 }
 
-.formation, .experience, .qualite {
-    margin-left: 100px;
+.ville{
+    margin-left: 40px;;
 }
 
-table {
-    text-align: center;
+
+ .td1 {
+    width: 27%;
+    
+    
+}
+.td2, .td3, .td_txt{
+    padding-top: 60px;
 }
 
-td {
-    width: 70%;
-    padding-top: 10px;
-    padding-bottom: 20px;
+
+.td_logo{
+    width: 27%;
 }
 
-.qualite-txt {
+.recommandation{
     display: flex;
-    justify-content: space-around;
-    width: 80%;
+}
+.recommandation p{
+    color: black;
+    margin-top: 40px;
+
+}
+.esp{
+    margin-left:190px;
 }
 
-.qualite-txt p{
-    color : black;
-}
+
+
+
+
+
+
+
+
 
 
 
