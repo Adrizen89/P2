@@ -130,10 +130,11 @@ h5{
     color: black;
     margin-top: 40px;
     margin-bottom: 40px;
+    margin-left: 40px;
 
 }
 .esp{
-    padding-left: 400px;
+    padding-left: 300px;
 }
 
 
@@ -149,7 +150,7 @@ h5{
 
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 425px) {
 
     body {
         display: flex;
@@ -204,6 +205,58 @@ h5{
         padding-top: 40px;
         padding-left: 0;
     }
+    
+
+    
+
+	
+
+}
+@media screen and (max-width: 1024px) {
+
+    body {
+        display: flex;
+        flex-direction: column-reverse;
+        
+        
+    }
+    
+    h2{
+        font-size: 2em;
+    }
+
+    
+
+    #aside-bar {
+        width: auto;
+	}
+
+    .txt_aside_propos{
+        padding-bottom: 150px;
+    }
+
+    .logo-loisirs{
+        padding-bottom: 40px;
+    }
+	
+
+	tr{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .td1, .td_logo{
+        width: 100%;
+        padding-top: 40px;
+    }
+
+    .td_txt, .td2, .td3{
+        padding-left: 40px;
+        width: 70%;
+        text-align: justify;
+    }
+   
+    
     
 
     
