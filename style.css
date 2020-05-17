@@ -42,6 +42,7 @@ body {
     letter-spacing: 1px;
     background-color: #1DE9B6;
     color: #004D40;
+    font-size: 1.5em;
 
 }
 
@@ -97,6 +98,7 @@ h5{
 }
 
 .titre{
+    padding-bottom: 10px;
     border-bottom: 2px solid #004D40;
     width: 95%;
     margin-top: 40px;
@@ -127,10 +129,11 @@ h5{
 .recommandation p{
     color: black;
     margin-top: 40px;
+    margin-bottom: 40px;
 
 }
 .esp{
-    margin-left:190px;
+    margin-left:0px;
 }
 
 
@@ -145,90 +148,61 @@ h5{
 
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
 
     body {
         display: flex;
         flex-direction: column-reverse;
-	}
-
-    #aside-bar {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: auto;
-	}
-
-    #aside-bar img {
-        margin: 0 auto 0 auto;
+        
+        
     }
-
-	.aside-title {
-        width: 100%;
-    }
-
-	p {
-        text-align: center;
-    }
-
-    #corps h2 {
-        margin-left: 30px;
-        text-align: center;
-    }
-
-    .sous-titre {
-        margin-left: 50px;
-        text-align: center;
-    }
-
-	td {
-        width: 30%;
-        padding-right: 60px;
-
-    }
-
-}
-
-
-@media all and (orientation : portrait){
     
-    body {
-        display: flex;
-        flex-direction: column-reverse;
+    h2{
+        font-size: 2em;
     }
+
+    
 
     #aside-bar {
+        width: auto;
+	}
+
+    .txt_aside_propos{
+        padding-bottom: 150px;
+    }
+
+    .logo-loisirs{
+        padding-bottom: 40px;
+    }
+	
+
+	tr{
         display: flex;
         flex-direction: column;
+
+    }
+    .td1, .td_logo{
         width: 100%;
-        height: auto;
+        padding-top: 40px;
     }
 
-    #aside-bar img {
-        margin: 0 auto 0 auto;
+    .td_txt, .td2, .td3{
+        padding-left: 40px;
+        width: 70%;
+        text-align: justify;
     }
-
-    .aside-title {
-        width: 100%;
+   
+    .recommandation{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
     }
+    
 
-    p {
-        text-align: center;
-    }
+    
 
-    #corps h2 {
-        margin-left: 30px;
-        text-align: center;
-    }
+	
 
-    .sous-titre {
-        margin-left: 50px;
-        text-align: center;
-    }
-
-    td {
-        width: 30%;
-        padding-right: 60px;
-
-    }
 }
+
+
